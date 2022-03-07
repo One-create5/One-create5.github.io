@@ -1,0 +1,8 @@
+.work_leftside_container,
+.work_rightside_container {
+  height: 100vh;
+}
+
+.work_rightside_container {
+  background-color: #6a7885;
+}

@@ -1,0 +1,79 @@
+.about_leftside_container,
+.about_rightside_container {
+  height: 100vh;
+}
+
+.about_leftside_container,
+.about_rightside_container {
+  position: relative;
+}
+
+.about_leftside_container {
+  background-color: #64b2a9;
+}
+
+.about_leftside_container > h2 {
+  color: #fff;
+  font-family: 'Quattrocento', serif;
+  font-size: 6vh;
+}
+
+.about_description {
+  height: 30%;
+  width: 70%;
+}
+
+.about_nav_links {
+  position: absolute;
+  bottom: 20px;
+  width: 25%;
+}
+
+.about_nav_links > span,
+.about_nav_links > a {
+  color: #292929;
+  font-size: 2vh;
+}
+
+.about_nav_links > a {
+  text-decoration: none;
+}
+
+.about_nav_links > a:hover {
+  color: #fff;
+}
+
+@media only screen and (max-width: 1440px) {
+  .about_description {
+    width: 66%;
+    position: absolute;
+    left: 1.5%;
+  }
+
+  .about_image {
+    position: absolute;
+    width: 30%;
+    right: 1%;
+    top: 26.5%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .about_image {
+    top: 31.5%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about_description {
+    width: 95%;
+    left: 2.5%;
+    bottom: 20%;
+  }
+
+  .about_image {
+    width: 40%;
+    top: 10%;
+    left: 35%;
+  }
+}
